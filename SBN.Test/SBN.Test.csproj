@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Lib\Action\" />
+    <Folder Include="Lib\Asset\" />
+    <Folder Include="Lib\DB\" />
+    <Folder Include="Lib\Definitions\" />
+    <Folder Include="Lib\Drawing\" />
+    <Folder Include="Lib\IO\" />
+    <Folder Include="Lib\Login\" />
+    <Folder Include="Lib\Transform\" />
+    <Folder Include="Lib\Sys\" />
+    <Folder Include="Lib\Request\" />
+    <Folder Include="Lib\Page\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+.vs/SBN/v15/Server/sqlite3/storage.ide-shm
+.vs/SBN/v15/Server/sqlite3/storage.ide
+.vs/SBN/v15/Server/sqlite3/storage.ide-wal
+.vs/
+ARDB/bin/
+ARDB/obj/
+SBN/obj/
+SBN.Test/obj/
+SBN/bin/
+SBN.Test/bin/
